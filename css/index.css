@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html{
+  background-color:#427f50;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'helvita', sans-serif;
+  color:#291d03;
+}
+h1 {
+  color: #8c6815;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'helvita', sans-serif;
+  color: #291d03;
+}
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #184725;
+  border: 2px solid #8c6815;
+  width: 100%;
+}
+.navigation h1 {
+  font-size: 6rem;
+  font-style: italic;
+  color:#8c6815;
+}
+.navigation nav {
+  display: flex;
+  justify-content: center;
+}
+.navigation nav a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 15px 1.6rem;
+  color: #fcfcfc;
+}
+
+.btn {
+  background:linear-gradient(rgb(9, 71, 63), yellow, green);
+  color:#8c6815;
+  font-size: 3rem;
+  font-weight: 200;
+  cursor: pointer;
+  padding: 5px 10px;
+  width: 100%;
+  text-align: center;
+}
+.btn:hover {
+  background:linear-gradient(rgb(8, 56, 20), yellow, green);
+  color:#fcfcfc;
+  border: 1px solid #184725;
+ 
+}
+.contact {
+  color:#fcfcfc;
+  background: #184725;
+  padding: 20px 0;
+  height: 80px;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact a {
+  color:lightskyblue;
+}
+.home .intro img {
+  border-radius: 5px;
+  width: 100%;
+  max-height: 50%;
+}
+.home .intro h2 {
+  padding: 15px;
+}
+.home .intro p {
+  padding: 0 15px;
+}
+
+.home .weed-images img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.home .footer-section {
+  margin-top: 60px;
+  border-top: 1px solid #dee2e6;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
+}
+

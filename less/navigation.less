@@ -1,0 +1,39 @@
+// Navigation code here
+
+.navigation {
+    .mixin-flex;
+    flex-direction: column;
+    align-items: center;
+    background: @nav-bg;
+    border: 1px solid @nav-border;
+    width: 100%;
+  }
+  
+  .navigation h1 {
+    font-size: 6rem;
+    color: @light-brown;
+  }
+  .navigation nav {
+    display: flex;
+    justify-content: center;
+  }
+  .navigation nav a {
+    text-decoration: none;
+    margin: 15px 1.6rem;
+    color:#184725;
+    color: @nav-bg;
+    color: @nav-font; 
+    background: @animation;
+    box-shadow: 5px 5px 5px 0px cyan, 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(31,37,255,0);
+ }
+
+ .navigation nav a:hover {
+    box-shadow: inset 0 0 0 25px #8c6815;
+ }
+
+
+
+
+
+
+  
